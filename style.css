@@ -71,11 +71,12 @@ svg {
 .controls button {
   padding: 1rem;
   border: none;
-  background: greenyellow;
+  background: blanchedalmond;
   color: black;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.5s ease;
+  margin: 1.5rem;
 }
 .pad {
   transition: all 0.5s ease;
@@ -84,10 +85,10 @@ svg {
 .play {
   padding: 1rem 2rem;
   font-size: 1.5rem;
-  background: rgb(46, 235, 46);
+  background: blanchedalmond;
   border: none;
   color: black;
-  cursor: none;
+  cursor: pointer;
   margin-top: 3rem;
 }
 select {
@@ -98,6 +99,26 @@ select {
 
 .mute.active {
   background: gainsboro;
+}
+
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+.tempo-slider {
+  padding: 0.2rem;
+  -webkit-appearance: none;
+  margin: 1rem 0rem;
+  width: 100%;
+  position: relative;
+  background: grey;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
 }
 
 @keyframes playTrack {
