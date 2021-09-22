@@ -20,7 +20,6 @@ class DrumKit {
   }
   repeat() {
     let step = this.index % 8;
-    console.log(step);
     const activeBars = document.querySelectorAll(`.b${step}`);
     //loop over the pads
     activeBars.forEach((bar) => {
